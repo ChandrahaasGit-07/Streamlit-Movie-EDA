@@ -12,7 +12,6 @@ hide_st_style = '''
 footer {visibility:hidden;}
 github {visibility:hidden;}
 edit {visibility:hidden;}
-fork {visibility:hidden;}
 </style>
 '''
 st.markdown(hide_st_style,unsafe_allow_html=True)
