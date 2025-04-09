@@ -9,7 +9,6 @@ st.title('Interactive Data Explorer')
 
 hide_st_style = '''
 <style>
-#MainMenu {visibility:hidden;}
 footer {visibility:hidden;}
 fork {visibility:hidden;}
 </style>
