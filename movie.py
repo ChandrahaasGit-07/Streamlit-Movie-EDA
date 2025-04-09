@@ -10,16 +10,8 @@ st.title('Interactive Data Explorer')
 hide_st_style = '''
 <style>
 footer {visibility:hidden;}
-
-/* Hide the GitHub logo (when the app is connected to GitHub) */
-footer a[href="https://github.com/streamlit/streamlit"] {display: none;}
-
-/* Hide the default app logo (Streamlit's default logo in the sidebar or header) */
-header .css-1r8f6v1 {display: none;}
-
-/* Optionally, you can add your custom logo instead of the Streamlit one */
-.header .css-1y7jfhz {display: none;}  /* This hides the default Streamlit logo in the header */
-
+github {visibility:hidden;}
+edit {visibility:hidden;}
 fork {visibility:hidden;}
 </style>
 '''
