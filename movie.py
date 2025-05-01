@@ -14,7 +14,18 @@ footer {visibility:hidden;}
 Share {visibility:hidden;}
 </style>
 '''
+st.markdown(hide_st_style,unsafe_allow_html=True)
 
+st.markdown("""
+    <style>
+        .css-1r6s0x7 { 
+            visibility: hidden;  /* Hide the GitHub logo */
+        }
+        .css-1r3p0cz { 
+            visibility: hidden;  /* Hide the Share button */
+        }
+    </style>
+""", unsafe_allow_html=True)
 
 # App dedscription- Expalin functionaliteis of the expander box
 with st.expander('About the APP'):
