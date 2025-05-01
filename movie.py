@@ -9,7 +9,7 @@ st.title('Interactive Data Explorer')
 
 hide_st_style = '''
 <style>
-MainMenu {visibility:hidden;}
+#MainMenu {visibility:hidden;}
 </style>
 '''
 
